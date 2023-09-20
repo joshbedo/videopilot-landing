@@ -1,7 +1,7 @@
 ---
 banner:
   title: "Create & Edit <br /> Stunning Videos"
-  content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
+  content: "Create & edit your videos effortlessly with pre-made professionally designed templates and features designed to optimize your workflow"
   image: /images/banner-img.png
   video:
     thumbnail: "/images/demo.png"
@@ -13,12 +13,12 @@ banner:
 
 ##key features
 key_features:
-  title: "The Highlighting Part Of Our Solution"
+  title: "Discover an All-in-One Solution for Crafting Spectacular Videos"
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   feature_list:
     - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Video Templates Added Weekly
+      content: Kickstart your video creation journey with a wide array of templates spanning various industries.
     - icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
       title: Smart Reply
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
