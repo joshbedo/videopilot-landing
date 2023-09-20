@@ -1,8 +1,9 @@
 ---
 import { markdownify } from "@lib/utils/textConverter";
 import { Image } from "@astrojs/image/components";
+import VideoComponent from "@layouts/function-components/VideoComponent";
 const { banner } = Astro.props;
-const { title, button, image, content } = banner;
+const { title, button, image, video, content } = banner;
 ---
 
 <section class="section banner relative">
@@ -22,13 +23,23 @@ const { title, button, image, content } = banner;
         }
       </div>
       <div class="lg:col-6">
-        <Image
+        <VideoComponent
+        client:load
+        src={video.thumbnail}
+        height={370}
+        width={700}
+        title={title}
+        video_id={video.video_id}
+        video_width="w-[700px]"
+        video_height="h-[370px]"
+      />
+        <!-- <Image
           class="w-full object-contain"
           alt="banner"
           src={image}
           width={603}
           height={396}
-        />
+        /> -->
       </div>
     </div>
   </div>

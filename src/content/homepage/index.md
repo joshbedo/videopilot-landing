@@ -3,10 +3,13 @@ banner:
   title: "Create & Edit <br /> Stunning Videos"
   content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
   image: /images/banner-img.png
+  video:
+    thumbnail: "/images/demo.png"
+    video_id: "g3-VxLQO7do"
   button:
-    label: Download The Theme
+    label: Signup Now
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
-    enable: true
+    enable: false
 
 ##key features
 key_features:
